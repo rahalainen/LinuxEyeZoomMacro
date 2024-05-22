@@ -1,15 +1,15 @@
-## Simple Eye Zoom Macro for Linux users (X11)
+## Simple Eye Zoom Macro for Linux users
 # Author:       Rahalainen
 # Version:      0.1.2
 # Usage:        Bind this script to a keybind to toggle the zoom while the Minecraft window is active.
 #               Run with 'debug' argument to write logs to /tmp/LinuxEyeZoomMacro.log
-# Requirements: X11 environment (tested on KDE Plasma 6.0.4), xdotool, wmctrl
+# Requirements: xorg/xorg-xwayland, xdotool, wmctrl
 
 #!/bin/env bash
 
 ## SET SCREEN WIDTH AND HEIGHT HERE
 ## recommended zoom ~ 4-6x
-## set BORDERLESS=1 to use borderless fullscreen (make sure to use windowed mode before toggling)
+## set BORDERLESS=1 to use borderless mode (make sure to use windowed mode before toggling)
 SCREEN_WIDTH=3440
 SCREEN_HEIGHT=1440
 ZOOM_FACTOR=4
