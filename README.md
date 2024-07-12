@@ -21,10 +21,10 @@ bash <path_to_directory>/LinuxEyeZoomMacro.sh
 Add your shortcut, e.g. `Ctrl+J` to toggle the zoom while the Minecraft window is active.
 
 ## Requirements
-Tested with KDE Plasma 6.0.4 on Arch Linux, on X11 and Wayland. 
+Tested with KDE Plasma 6.0.4 on Arch Linux, on X11. 
 
 Required commands/packages:
-- xorg/xorg-xwayland
+- xorg
 - xdotool
 - wmctrl
 
