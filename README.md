@@ -6,7 +6,7 @@ Minecraft window zooming script for Linux users.
 ## Usage
 Clone or download the `LinuxEyeZoomMacro.sh` script and add the script as a custom keyboard shortcut.
 
-Edit `ZOOM_FACTOR` in the script if needed (automatically limits height to 16384 px).
+Edit `ZOOM_HEIGHT` in the script if needed (limited to 16384 px).
 
 (To enable logging, add `debug` as the first argument to write command output to `/tmp/LinuxEyeZoomMacro/LEZM.log`)
 
@@ -19,7 +19,7 @@ bash -c "<path_to_directory>/LinuxEyeZoomMacro.sh"
 Add your shortcut, e.g. `Ctrl+J` to toggle the zoom while the Minecraft window is active.
 
 ## Requirements
-Tested with KDE Plasma 6.2.5 on Arch Linux, on Wayland.
+Tested with KDE Plasma 6.4.2 on Arch Linux, on Wayland.
 
 Required commands/packages:
 - xorg (or xwayland)
@@ -28,4 +28,4 @@ Required commands/packages:
 - xrandr
 
 ## Limitations
-- Original window size is lost after zooming in fullscreen mode (nonissue)
+- Some desktop environments (e.g. GNOME) prevent windows from being resized beyond the screen edges. To work around this, drag the window slightly off-screen so the title bar is no longer visible (use Super + drag), then enter fullscreen mode and try zooming in again.
