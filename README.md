@@ -3,6 +3,8 @@
 
 Minecraft window zooming script for Linux users.
 
+### Note: You should probably check out [linux-mcsr](https://its-saanvi.github.io/linux-mcsr/index.html) wiki instead!
+
 ## Usage
 Clone or download the `LinuxEyeZoomMacro.sh` script and add the script as a custom keyboard shortcut.
 
